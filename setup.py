@@ -5,6 +5,7 @@ setup(
     packages=['captcha2upload'],
     package_dir={'captcha2upload': 'src/captcha2upload'},
     version='0.1',
+    install_requires=['requests'],
     description='Upload your image and solve captche using the 2Captcha '
                   'Service',
     author='Alessandro Sbarbati',
