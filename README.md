@@ -1,6 +1,20 @@
 # 2Captcha
 2Captcha team solves your CAPTCHA with high accuracy
 
+## How to install?
+
+### pip
+```
+pip install captcha2upload
+```
+
+### Source
+```
+git clone https://github.com/Mirio/captcha2upload.git
+cd captcha2upload
+python setup.py install
+```
+
 ## How to start?
 [Register Here](http://2captcha.com/?from=1083991)
 And get the api key:
