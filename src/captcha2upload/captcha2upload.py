@@ -3,7 +3,7 @@ from requests import post, get
 from time import sleep
 
 
-class CaptchaUpload:
+class CaptchaUpload(object):
     def __init__(self, key, log=None, waittime=None):
         self.settings = {"url_request": "http://2captcha.com/in.php",
                          "url_response": "http://2captcha.com/res.php",
