@@ -91,7 +91,7 @@ class CaptchaUpload(object):
         """
         if exists(pathfile):
             files = {'file': open(pathfile, 'rb')}
-            payload = {'key': self.settings['key'], 'method': 'post'}
+            payload = {'key': self.settings['key'], 'method': 'post', 'regsense':1}
             if self.logenabled:
                 self.log.info("[2CaptchaUpload] Uploading to 2Captcha.com..")
             request = post(self.settings['url_request'], files=files,
